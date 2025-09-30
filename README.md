@@ -55,5 +55,5 @@ A backend application for quiz management that lets users create quizzes with si
     }
   ]
 }</li>
-  <p>data to submit ans for test-type answers</p>
+  <p>data to submit ans for text-type answers</p>
 </ul>
