@@ -18,3 +18,42 @@ A backend application for quiz management that lets users create quizzes with si
 <li>Now open the mongodb terminal and create a new database named quiz. All the quizes and questions will be stored here.</li>
 <li>To start the server enter the command <b>npm start</b></li>
 </ul>
+<h3>Instructions on how to run your test cases.</h3>
+<ul>
+  <li>{
+    "title":"OS"
+}</li>
+  <p>data to create a quiz</p>
+  <li>{
+  "text": "Which memory management technique divides memory into fixed-size blocks?",
+  "questionType": "single-choice",
+  "options": [
+    {
+      "text": "Segmentation",
+      "isCorrect": false
+    },
+    {
+      "text": "Paging",
+      "isCorrect": true
+    },
+    {
+      "text": "Virtual Memory",
+      "isCorrect": false
+    },
+    {
+      "text": "Swapping",
+      "isCorrect": false
+    }
+  ]
+}</li>
+  <p>data to add question</p>
+  <li>{
+  "answers": [
+    {
+      "questionId": "68da78d4413d6655549274b9",
+      "textAnswer": "Deadlock is a situation where two or more processes are blocked forever, waiting for each other to release resources."
+    }
+  ]
+}</li>
+  <p>data to submit ans for test-type answers</p>
+</ul>
